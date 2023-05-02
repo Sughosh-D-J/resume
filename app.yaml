@@ -1,9 +1,0 @@
-runtime: python311
-env: standard
-entrypoint: gunicorn -b :$PORT resume.wsgi:application
-
-env_variables:
-    APPENGINE_URL: https://resume-384810.uc.r.appspot.com
-
-
-
